@@ -1,27 +1,42 @@
 <html>
     <head>
         <title>Super David Rubiks Cube</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            .mySlides {display:none;}
+        </style>
+             
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header style="font-size: 24px; background-color: darkblue">
-            <img src="https://images.officeworks.com.au/api/2/img///s3-ap-southeast-2.amazonaws.com/wc-prod-pim/BrandLogo_400x400/Rubik's.png/optimise?auth=MjA5OTcwODkwMg__" width="110px" style="vertical-align : middle;margin: 6px"/>
-            <a href="#">Home</a>
-            <a href="#price"> Price List</a>
-            <a href="#about-us"> About Us</a>
-            <a href="#contact"> Contact</a>
+        <header>
+            <img src="https://cdn.prod.website-files.com/65849828bf90a121b81dc3a5/65c26184c71d3dd48e4cfaa9_Rubiks-logo.png" width="110px" style="vertical-align : middle;margin: 6px"/>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="product.html">Our Products</a>
+                <a href="#about-us"> About Us</a>
+                <a href="#contact"> Contact</a>
+            </div>
         </header>
         <main>
-            <section id="about-us" style="background-image: url(https://media.istockphoto.com/id/1364410854/vi/anh/h%C3%ACnh-kh%E1%BB%91i-v%C3%A0-phong-c%E1%BA%A3nh.jpg?s=1024x1024&w=is&k=20&c=LiOxOYdGSmCp3mxGIOUgzJYCHBtj9AVWJsnSp4pWlMQ=); height: 445px; background-size: cover; display: flex;justify-content: center; align-items: center ">
-                <div style="width: 500px; height: 250px; background-color yellow: ">
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="https://bizweb.dktcdn.net/100/316/286/themes/757383/assets/slider_4.jpg?1687422422836" style="width:100%">
+                <img class="mySlides" src="https://bizweb.dktcdn.net/100/316/286/themes/757383/assets/slider_5.jpg?1687422422836" style="width:100%">
+                <img class="mySlides" src="https://bizweb.dktcdn.net/100/316/286/themes/757383/assets/slider_3.jpg?1687422422836" style="width:100%">
+                <img class="mySlides" src="https://bizweb.dktcdn.net/100/316/286/themes/757383/assets/slider_2.jpg?1687422422836" style="width:100%">
+              
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <section id="about-us">
+                <div style="width: 500px; height: 250px;">
                     <h1>About Us</h1>
-                    <p style="color: black; background-color: white; padding: 6px">For over 20 years, we’ve been committed to producing Rubik’s promotional cubes responsibly and respectfully, following international social and environmental standards. Our mission is to spread the magic of the iconic Rubik’s Cube while making a positive impact on the world.</p>
-                </div>
-                
+                    <p>For over 20 years, we’ve been committed to producing Rubik’s promotional cubes responsibly and respectfully, following international social and environmental standards. Our mission is to spread the magic of the iconic Rubik’s Cube while making a positive impact on the world.</p>
+                </div>      
             </section>
 
             <section id="more-info">
-                <h2 style="text-color:#FFF455">
+                <h2 style="color:#FFF455">
                     Explore more about Rubik world
                 </h2>
                 <p>Quality Puzzles: At Rubik, we curate a diverse collection of high-quality puzzles. From classic Rubik’s cubes to intricate speed cubes, we’ve got the perfect challenge for you.
@@ -36,6 +51,7 @@ Expert Advice: Our team of puzzle enthusiasts is here to assist you. Need tips o
 Community: Join our puzzle-loving community. Attend workshops, participate in competitions, and connect with fellow cubers.
 Fast Shipping: We know you’re eager to get your hands on that new cube. That’s why we offer swift and reliable shipping.</p>
                 <p>Visit Rubik today and unlock a world of brain-teasing fun! 🧩🔥</p>
+                <a class="view-more-btn" href="/product.html">Explore More Product</a>
             </section>
             <section id="price">
                 <h2>
@@ -101,12 +117,52 @@ Fast Shipping: We know you’re eager to get your hands on that new cube. That�
             </section>
             <section id="contact"></section>
         </main>
-        <footer style="text-color: white">
-            <p>Email: hieu15052014@gmail.com</p>
-            <p>Phone: 0983205060 -
-                      0918182192</p>
-            <p>Address: 42 Tan Lap 1</p>
-            <p>Pasword: *************</p>
+        <footer>
+            <div>
+                <h4>About us</h4>
+
+                <p><b>RUBIK STORE LIMITED</b></p>
+                <p>Email: hieu15052014@gmail.com</p>
+                <p>Phone: 0983205060 -
+                          0918182192</p>
+                <p>Address: 42 Tan Lap 1</p>
+                <p>Pasword: *************</p>  
+            </div>
+            <div>
+                <h4>Infomation</h4>
+                <ul>
+                    <li><a href="#">Warranty Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Sales Policy</a></li>
+                    <li><a href="#">Delivery Policy</a></li>
+                </ul>        
+            </div>
+            <div>
+                <h4 class="">Connect With Us</h4>
+                <a href=""><img width="40px" height="40px" src="https://bizweb.dktcdn.net/100/316/286/themes/757383/assets/social_facebook_icon.svg?1687422422836" /></a>
+                <a href=""><img width="40px" height="40px" src="https://bizweb.dktcdn.net/100/316/286/themes/757383/assets/social_instagram_icon.svg?1687422422836" /></a>
+                <a href=""><img width="40px" height="40px" src="https://bizweb.dktcdn.net/100/316/286/themes/757383/assets/social_shopee_icon.svg?1687422422836" /></a>
+                <a href="https://www.youtube.com/results?search_query=rubik" target="_blank"><img width="40px" height="40px" src="https://bizweb.dktcdn.net/100/316/286/themes/757383/assets/social_youtube_icon.svg?1687422422836" /></a>
+            </div>
         </footer>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
     </body>
 </html>
