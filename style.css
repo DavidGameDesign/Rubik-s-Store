@@ -127,6 +127,10 @@ h2{
     padding: 5px;
 }
 
+#price iframe {
+    display: block;
+    margin: 20px auto ;
+}
 /* footer */
 footer {
     color: white;
