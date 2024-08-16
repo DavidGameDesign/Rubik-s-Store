@@ -128,8 +128,8 @@ h2{
 }
 
 #price iframe {
-    display: block;
-    margin: 20px auto ;
+    display: block !important;
+    margin: 20px auto !important;
 }
 /* footer */
 footer {
@@ -163,3 +163,7 @@ footer ul {
 footer ul a {
     text-decoration: none;
 }
+
+
+
+
